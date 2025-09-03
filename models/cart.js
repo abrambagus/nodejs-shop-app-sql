@@ -5,7 +5,7 @@ const sequileze = require("../util/database");
 const Cart = sequileze.define("cart", {
   id: {
     type: Sequelize.INTEGER,
-    autoIncrement: false,
+    autoIncrement: true,
     allowNull: false,
     primaryKey: true,
   },
